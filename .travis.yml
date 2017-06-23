@@ -1,0 +1,4 @@
+language: csharp
+solution: BorderlessGaming.sln
+mono:
+  - latest
