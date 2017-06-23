@@ -120,7 +120,7 @@
     <Compile Include="Forms\DesktopAreaSelector.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DesktopAreaSelector.designer.cs">
+    <Compile Include="Forms\DesktopAreaSelector.Designer.cs">
       <DependentUpon>DesktopAreaSelector.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\InputText.cs">
