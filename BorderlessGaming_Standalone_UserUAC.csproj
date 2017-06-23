@@ -257,9 +257,9 @@
       $(PostBuildEventDependsOn);
       PostBuildMacros;
     </PostBuildEventDependsOn>
-    <PostBuildEvent>call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)$(OutDir)$(TargetFileName)"
+    <!-- <PostBuildEvent>call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)$(OutDir)$(TargetFileName)"
 call iscc /Qp "$(ProjectDir)\Installers\BorderlessGaming_Standalone_User.iss"
-call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)Installers\BorderlessGaming@(VersionNumber)_setup.exe"</PostBuildEvent>
+call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)Installers\BorderlessGaming@(VersionNumber)_setup.exe"</PostBuildEvent> -->
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

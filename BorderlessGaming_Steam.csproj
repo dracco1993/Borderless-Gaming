@@ -254,8 +254,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(ProjectDir)SteamLibs\* $(ProjectDir)$(OutDir)
-call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)$(OutDir)$(TargetFileName)"</PostBuildEvent>
+    <!-- <PostBuildEvent>copy $(ProjectDir)SteamLibs\* $(ProjectDir)$(OutDir)
+call "$(SolutionDir)Tools\DigiCertUtil.exe" sign /noInput /sha1 "CB509F61A8A3B970790F0E2C695A3782F101FF22" "$(ProjectDir)$(OutDir)$(TargetFileName)"</PostBuildEvent> -->
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
